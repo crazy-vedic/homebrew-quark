@@ -1,7 +1,6 @@
 class Quark < Formula
-  desc "Quark - A fast and lightweight utility"
+  desc "Fast and lightweight utility"
   homepage "https://github.com/crazy-vedic/Quark"
-  version "1.3.33"
 
   on_macos do
     if Hardware::CPU.arm?
@@ -31,6 +30,6 @@ class Quark < Formula
   end
 
   test do
-    system "#{bin}/quark", "--version"
+    system bin/"quark", "--version"
   end
 end
