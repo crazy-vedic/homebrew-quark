@@ -4,11 +4,11 @@ class Quark < Formula
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/crazy-vedic/Quark/releases/download/v1.3.30/quark-darwin-arm64.tar.gz"
-      sha256 "c77ec053b6c0447d31dfab005c92ddec36784f33f61546924067c0905d775d78"
+      url "https://github.com/crazy-vedic/Quark/releases/download/v1.3.31/quark-darwin-arm64.tar.gz"
+      sha256 "ac815378f3080d9b16c7cb5850addb2cfe8afda880f55f45df5dc13d3823a03a"
     else
-      url "https://github.com/crazy-vedic/Quark/releases/download/v1.3.30/quark-darwin-amd64.tar.gz"
-      sha256 "cdc6bfbea14b21914b47432376fcd23c8a650fa327ca45ce4b0c37ec14329df3"
+      url "https://github.com/crazy-vedic/Quark/releases/download/v1.3.31/quark-darwin-amd64.tar.gz"
+      sha256 "61d4b7d28a262c1996b2a7682c531c64e8172ae0a46a498634e87bd13a6976f6"
     end
   end
 
