@@ -8,6 +8,7 @@ on:
   pull_request:
     paths:
       - 'Formula/**'
+  workflow_dispatch:
 
 jobs:
   validate-formula:
@@ -18,7 +19,6 @@ jobs:
       - name: Set up Homebrew
         run: |
           brew tap-new local/quark
-          # Copy formula to the local tap
           cp Formula/quark.rb /opt/homebrew/Library/Taps/local/homebrew-quark/Formula/
 
       - name: Run brew audit on formula
