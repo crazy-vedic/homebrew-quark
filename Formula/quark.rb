@@ -1,7 +1,7 @@
 class Quark < Formula
   desc "Fast and lightweight utility"
   homepage "https://github.com/crazy-vedic/Quark"
-  
+
   on_macos do
     if Hardware::CPU.arm?
       url "https://github.com/crazy-vedic/Quark/releases/download/v1.3.30/quark-darwin-arm64.tar.gz"
