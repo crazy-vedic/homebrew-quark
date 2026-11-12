@@ -23,12 +23,12 @@ jobs:
 
       - name: Run brew audit on formula
         run: |
-          brew audit --strict Formula/quark.rb
+          brew audit --strict local/quark/quark
 
       - name: Test formula syntax
         run: |
-          brew formula Formula/quark.rb
+          brew formula local/quark/quark
 
       - name: Lint formula
         run: |
-          brew lint Formula/quark.rb || true
+          brew lint local/quark/quark || true
