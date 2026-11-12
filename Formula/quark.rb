@@ -1,14 +1,14 @@
 class Quark < Formula
   desc "Quark - A fast and lightweight utility"
   homepage "https://github.com/crazy-vedic/Quark"
-  version "1.3.21"
+  version "1.3.22"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/crazy-vedic/Quark/releases/download/v1.3.21/quark_1.3.21_darwin_arm64.tar.gz"
+      url "https://github.com/crazy-vedic/Quark/releases/download/v1.3.22/quark_1.3.22_darwin_arm64.tar.gz"
       sha256 ""
     else
-      url "https://github.com/crazy-vedic/Quark/releases/download/v1.3.21/quark_1.3.21_darwin_amd64.tar.gz"
+      url "https://github.com/crazy-vedic/Quark/releases/download/v1.3.22/quark_1.3.22_darwin_amd64.tar.gz"
       sha256 ""
     end
   end
