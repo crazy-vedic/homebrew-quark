@@ -20,6 +20,7 @@ jobs:
         run: |
           brew tap-new local/quark
           cp Formula/quark.rb /opt/homebrew/Library/Taps/local/homebrew-quark/Formula/
+          brew trust local/quark
 
       - name: Run brew audit on formula
         run: |
