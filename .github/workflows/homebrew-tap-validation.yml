@@ -29,7 +29,3 @@ jobs:
       - name: Test formula syntax
         run: |
           brew formula local/quark/quark
-
-      - name: Lint formula
-        run: |
-          brew lint local/quark/quark || true
