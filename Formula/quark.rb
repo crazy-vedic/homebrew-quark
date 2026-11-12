@@ -5,13 +5,13 @@
 class Quark < Formula
   desc "A local-first, keyboard-driven HTTP client"
   homepage "https://github.com/crazy-vedic/Quark"
-  version "1.3.8"
+  version "1.3.9"
   license "MIT"
 
   on_macos do
     on_intel do
-      url "https://github.com/crazy-vedic/Quark/releases/download/v1.3.8/quark-darwin-amd64.tar.gz"
-      sha256 "127581c91df55f498343be06fcac60624365d65396b94344b488b87b275a67db"
+      url "https://github.com/crazy-vedic/Quark/releases/download/v1.3.9/quark-darwin-amd64.tar.gz"
+      sha256 "ecfa4205e62f9d0d4f6e09b7c9ee7338580455dc95b92cae2bd6b0ab255fa0d9"
 
       def install
         bin.install "quark"
@@ -21,8 +21,8 @@ class Quark < Formula
       end
     end
     on_arm do
-      url "https://github.com/crazy-vedic/Quark/releases/download/v1.3.8/quark-darwin-arm64.tar.gz"
-      sha256 "e0bb158c0df1166796a33d530affc94a874c12421ccf6b684f9d1bf7cca1b6c8"
+      url "https://github.com/crazy-vedic/Quark/releases/download/v1.3.9/quark-darwin-arm64.tar.gz"
+      sha256 "41aa0ce12d515d1795f94c85701e21adecf252726640df5381199334a55c92af"
 
       def install
         bin.install "quark"
@@ -36,8 +36,8 @@ class Quark < Formula
   on_linux do
     on_intel do
       if Hardware::CPU.is_64_bit?
-        url "https://github.com/crazy-vedic/Quark/releases/download/v1.3.8/quark-linux-amd64.tar.gz"
-        sha256 "4d7d10465ae627fd13683a40f266198053ad7f019ec7c1d0474d7b61802c218e"
+        url "https://github.com/crazy-vedic/Quark/releases/download/v1.3.9/quark-linux-amd64.tar.gz"
+        sha256 "a050fda1eb5144e0debef810ad93e7a696cd2b96e7f193576b99561e6b65d9a2"
 
         def install
           bin.install "quark"
@@ -49,8 +49,8 @@ class Quark < Formula
     end
     on_arm do
       if Hardware::CPU.is_64_bit?
-        url "https://github.com/crazy-vedic/Quark/releases/download/v1.3.8/quark-linux-arm64.tar.gz"
-        sha256 "3155a83683b5826250e9cf651012bdddb957a664827ff4fbb8d5aba6b14d88a0"
+        url "https://github.com/crazy-vedic/Quark/releases/download/v1.3.9/quark-linux-arm64.tar.gz"
+        sha256 "0c9f49fdea46853b8f93ad858f3b4f26616c5179671fb0825e4e4104bc2fd8c0"
 
         def install
           bin.install "quark"
