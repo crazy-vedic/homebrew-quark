@@ -4,21 +4,21 @@ class Quark < Formula
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/crazy-vedic/Quark/releases/download/v1.3.42/quark-darwin-arm64.tar.gz"
-      sha256 "58aed2abe923004e9781919cee9ddd1452be33a7f4bec0403ed95e2f690886ba"
+      url "https://github.com/crazy-vedic/Quark/releases/download/v1.3.43/quark-darwin-arm64.tar.gz"
+      sha256 "7fb25c86b26e37b74ab3f8444f4fae0716e9122ceb74949769b7c757801b5af6"
     else
-      url "https://github.com/crazy-vedic/Quark/releases/download/v1.3.42/quark-darwin-amd64.tar.gz"
-      sha256 "21bf5c7e129de6dbb78215c2a760a142be73a8c7f18955ccad342a4d6138d504"
+      url "https://github.com/crazy-vedic/Quark/releases/download/v1.3.43/quark-darwin-amd64.tar.gz"
+      sha256 "12a6ad676e89e2ceac0b10a5df8346cc1c6b18440f21b60c8c0daf84cb53276a"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm? && Hardware::CPU.is_64_bit?
-      url "https://github.com/crazy-vedic/Quark/releases/download/v1.3.42/quark-linux-arm64.tar.gz"
-      sha256 "2e15c3a7a7a170f99e5f50a14799dc18d702783d0f6a2f69880bd9d2f7005a42"
+      url "https://github.com/crazy-vedic/Quark/releases/download/v1.3.43/quark-linux-arm64.tar.gz"
+      sha256 "bcc9c6237ac7f00ac3d1589504fa2d298d7f73d70292db85d3fef9912bec009b"
     else
-      url "https://github.com/crazy-vedic/Quark/releases/download/v1.3.42/quark-linux-amd64.tar.gz"
-      sha256 "a55e1052c27d7a5034bcecd2edfc566ed2e7bc43cbcc235036b9cab652df6cd5"
+      url "https://github.com/crazy-vedic/Quark/releases/download/v1.3.43/quark-linux-amd64.tar.gz"
+      sha256 "524cefe6b5bd1fc4fdc37900893a82acee46891fadd1d4ffecdf8351e42f36a5"
     end
   end
 
